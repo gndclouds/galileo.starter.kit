@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 20;
+}
+
+.item-1 {
+  background-image: url("../images/CIP2014_01.png");
+}
+
+.item-2 {
+  background-image: url("../images/CIP2014_03.png");
+}
+
+.item-3 {
+  background-image: url("../images/CIP2014_04.png");
+}
+
+.item-4 {
+  background-image: url("../images/CIP2014_05.png");
+}
+
+.item-5 {
+  background-image: url("../images/CIP2014_06.png");
+}
+.item-6 {
+  background-image: url("../images/CIP2014_07.png");
+}
+.item-7 {
+  background-image: url("../images/CIP2014_08.png");
+}
